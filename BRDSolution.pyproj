@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>7785487b-c1ab-4891-bd11-cd5622451a21</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>__init__.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>BRDSolution</Name>
+    <RootNamespace>BRDSolution</RootNamespace>
+    <InterpreterId>Global|PythonCore|3.6-32</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="inventory\classes.py" />
+    <Compile Include="inventory\constants.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="inventory\controllers.py" />
+    <Compile Include="inventory\excelconversion\classes.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="inventory\excelconversion\constants.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="inventory\excelconversion\controllers.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="inventory\excelconversion\gui.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="inventory\excelconversion\methods.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="inventory\fudgeit\controllers.py" />
+    <Compile Include="inventory\fudgeit\gui.py" />
+    <Compile Include="inventory\fudgeit\__init__.py" />
+    <Compile Include="inventory\QuickBooks\controllers.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="inventory\QuickBooks\costsfromreport\classes.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="inventory\QuickBooks\costsfromreport\controllers.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="inventory\QuickBooks\costsfromreport\gui.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="inventory\QuickBooks\costsfromreport\methods.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="inventory\QuickBooks\costsfromreport\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="inventory\QuickBooks\gui.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="inventory\QuickBooks\itemlistvendors\classes.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="inventory\QuickBooks\itemlistvendors\controllers.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="inventory\QuickBooks\itemlistvendors\gui.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="inventory\QuickBooks\itemlistvendors\methods.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="inventory\QuickBooks\itemlistvendors\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="inventory\QuickBooks\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="inventory\sql.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="inventory\excelconversion\widgets.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="inventory\excelconversion\__init__.py" />
+    <Compile Include="inventory\gui.py" />
+    <Compile Include="inventory\methods.py" />
+    <Compile Include="inventory\widgets.py" />
+    <Compile Include="inventory\__init__.py" />
+    <Compile Include="style.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="inventory\" />
+    <Folder Include="inventory\excelconversion\" />
+    <Folder Include="inventory\fudgeit\" />
+    <Folder Include="inventory\QuickBooks\" />
+    <Folder Include="inventory\QuickBooks\itemlistvendors\" />
+    <Folder Include="inventory\QuickBooks\costsfromreport\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.6-32" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
