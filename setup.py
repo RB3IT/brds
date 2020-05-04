@@ -21,7 +21,6 @@ setuptools.setup(
     python_requires='>=3.8',
     install_requires=[
         "openpyxl",
-        "xlrd",
-        "git+https://github.com/AdamantLife/alcustoms"
+        "xlrd"
         ]
 )
