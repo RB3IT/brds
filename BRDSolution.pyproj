@@ -5,7 +5,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7785487b-c1ab-4891-bd11-cd5622451a21</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>__init__.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,94 +24,57 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="inventory\classes.py" />
-    <Compile Include="inventory\constants.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="inventory\controllers.py" />
-    <Compile Include="inventory\excelconversion\classes.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="inventory\excelconversion\constants.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="inventory\excelconversion\controllers.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="inventory\excelconversion\gui.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="inventory\excelconversion\methods.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="inventory\fudgeit\controllers.py" />
-    <Compile Include="inventory\fudgeit\gui.py" />
-    <Compile Include="inventory\fudgeit\__init__.py" />
-    <Compile Include="inventory\QuickBooks\controllers.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="inventory\QuickBooks\costsfromreport\classes.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="inventory\QuickBooks\costsfromreport\controllers.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="inventory\QuickBooks\costsfromreport\gui.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="inventory\QuickBooks\costsfromreport\methods.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="inventory\QuickBooks\costsfromreport\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="inventory\QuickBooks\gui.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="inventory\QuickBooks\itemlistvendors\classes.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="inventory\QuickBooks\itemlistvendors\controllers.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="inventory\QuickBooks\itemlistvendors\gui.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="inventory\QuickBooks\itemlistvendors\methods.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="inventory\QuickBooks\itemlistvendors\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="inventory\QuickBooks\__init__.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="inventory\sql.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="inventory\excelconversion\widgets.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="inventory\excelconversion\__init__.py" />
-    <Compile Include="inventory\gui.py" />
-    <Compile Include="inventory\methods.py" />
-    <Compile Include="inventory\widgets.py" />
-    <Compile Include="inventory\__init__.py" />
-    <Compile Include="style.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="__init__.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="inventory\" />
-    <Folder Include="inventory\excelconversion\" />
-    <Folder Include="inventory\fudgeit\" />
-    <Folder Include="inventory\QuickBooks\" />
-    <Folder Include="inventory\QuickBooks\itemlistvendors\" />
-    <Folder Include="inventory\QuickBooks\costsfromreport\" />
+    <Compile Include="BRDSolution\inventory\classes.py" />
+    <Compile Include="BRDSolution\inventory\constants.py" />
+    <Compile Include="BRDSolution\inventory\controllers.py" />
+    <Compile Include="BRDSolution\inventory\excelconversion\classes.py" />
+    <Compile Include="BRDSolution\inventory\excelconversion\constants.py" />
+    <Compile Include="BRDSolution\inventory\excelconversion\controllers.py" />
+    <Compile Include="BRDSolution\inventory\excelconversion\gui.py" />
+    <Compile Include="BRDSolution\inventory\excelconversion\methods.py" />
+    <Compile Include="BRDSolution\inventory\excelconversion\widgets.py" />
+    <Compile Include="BRDSolution\inventory\excelconversion\__init__.py" />
+    <Compile Include="BRDSolution\inventory\fudgeit\controllers.py" />
+    <Compile Include="BRDSolution\inventory\fudgeit\gui.py" />
+    <Compile Include="BRDSolution\inventory\fudgeit\__init__.py" />
+    <Compile Include="BRDSolution\inventory\gui.py" />
+    <Compile Include="BRDSolution\inventory\methods.py" />
+    <Compile Include="BRDSolution\inventory\QuickBooks\controllers.py" />
+    <Compile Include="BRDSolution\inventory\QuickBooks\costsfromreport\classes.py" />
+    <Compile Include="BRDSolution\inventory\QuickBooks\costsfromreport\controllers.py" />
+    <Compile Include="BRDSolution\inventory\QuickBooks\costsfromreport\gui.py" />
+    <Compile Include="BRDSolution\inventory\QuickBooks\costsfromreport\methods.py" />
+    <Compile Include="BRDSolution\inventory\QuickBooks\costsfromreport\__init__.py" />
+    <Compile Include="BRDSolution\inventory\QuickBooks\gui.py" />
+    <Compile Include="BRDSolution\inventory\QuickBooks\itemlistvendors\classes.py" />
+    <Compile Include="BRDSolution\inventory\QuickBooks\itemlistvendors\controllers.py" />
+    <Compile Include="BRDSolution\inventory\QuickBooks\itemlistvendors\gui.py" />
+    <Compile Include="BRDSolution\inventory\QuickBooks\itemlistvendors\methods.py" />
+    <Compile Include="BRDSolution\inventory\QuickBooks\itemlistvendors\__init__.py" />
+    <Compile Include="BRDSolution\inventory\QuickBooks\__init__.py" />
+    <Compile Include="BRDSolution\inventory\sql.py" />
+    <Compile Include="BRDSolution\inventory\widgets.py" />
+    <Compile Include="BRDSolution\inventory\__init__.py" />
+    <Compile Include="BRDSolution\style.py" />
+    <Compile Include="BRDSolution\__init__.py" />
+    <Compile Include="setup.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.6-32" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
+    <Content Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BRDSolution\" />
+    <Folder Include="BRDSolution\inventory\" />
+    <Folder Include="BRDSolution\inventory\excelconversion\" />
+    <Folder Include="BRDSolution\inventory\fudgeit\" />
+    <Folder Include="BRDSolution\inventory\QuickBooks\" />
+    <Folder Include="BRDSolution\inventory\QuickBooks\costsfromreport\" />
+    <Folder Include="BRDSolution\inventory\QuickBooks\itemlistvendors\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
